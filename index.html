@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="description" content="EverydayKit brings free, private browser tools and clear digital guides together in one simple place.">
+  <meta property="og:title" content="EverydayKit — useful tools for everyday">
+  <meta property="og:description" content="Simple, private tools for work, study and daily life. No account required.">
+  <meta property="og:type" content="website">
+  <title>EverydayKit — useful tools for everyday</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%235b5ce2'/%3E%3Cpath d='M12 12h6v6h-6zm10 0h6v6h-6zM12 22h6v6h-6zm10 2h6m-3-3v6' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="EverydayKit home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 5h8v8H5zm14 0h8v8h-8zM5 19h8v8H5zm14 3h8m-4-4v8" /></svg></span>
+        <span>everyday<span class="brand-light">kit</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#tools">Tools</a><a href="#categories">Categories</a><a href="#learn">Learn</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" aria-label="Switch color theme" title="Switch color theme"><span class="theme-icon">☾</span></button>
+        <button class="button button-small button-primary header-cta" data-go="tools">Explore tools <span aria-hidden="true">↗</span></button>
+        <button class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false"><span class="menu-glyph">☰</span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#tools">Tools</a><a href="#categories">Categories</a><a href="#learn">Learn</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="app"></div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand brand-inverse" href="#home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 5h8v8H5zm14 0h8v8h-8zM5 19h8v8H5zm14 3h8m-4-4v8" /></svg></span>
+          <span>everyday<span class="brand-light">kit</span></span>
+        </a>
+        <p>Small tools for the things you do every day. Free, straightforward, and right in your browser.</p>
+      </div>
+      <div class="footer-links">
+        <div><h2>Explore</h2><a href="#tools">All tools</a><a href="#categories">Categories</a><a href="#learn">Learning guides</a><a href="#about">About us</a></div>
+        <div><h2>Tool categories</h2><a href="#category/text-tools">Text tools</a><a href="#category/developer-tools">Developer tools</a><a href="#category/calculators">Calculators</a><a href="#category/image-tools">Image tools</a><a href="#category/generators">Generators</a></div>
+        <div><h2>Help &amp; legal</h2><a href="#faq">FAQs</a><a href="#contact">Contact</a><a href="#privacy">Privacy policy</a><a href="#terms">Terms of service</a><a href="#cookies">Cookie policy</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> EverydayKit. Made for everyday.</span><span class="privacy-note"><span aria-hidden="true">●</span> Your tools run in your browser</span></div>
+  </footer>
+</body>
+</html>
